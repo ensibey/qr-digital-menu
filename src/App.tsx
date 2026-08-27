@@ -467,29 +467,6 @@ export function App() {
                 ))}
               </div>
 
-              {/* Extras & Add-ons Box (Strictly Only the 3 Physical Board Items) */}
-              <div className="bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700/80 rounded-2xl p-3.5 mt-2 transition-colors">
-                <div className="text-xs font-bold text-slate-800 dark:text-slate-200 uppercase tracking-wider mb-2 flex items-center justify-between">
-                  <div className="flex items-center gap-1.5">
-                    <Sparkles className="w-3.5 h-3.5 text-amber-500" />
-                    <span>EXTRAS</span>
-                  </div>
-                  <span className="text-[10px] text-amber-600 dark:text-amber-400 font-bold">+35₺</span>
-                </div>
-                <div className="grid grid-cols-3 gap-2">
-                  {menuData.extras.map((extra, idx) => (
-                    <div key={idx} className="bg-white dark:bg-slate-900 p-2.5 rounded-xl border border-slate-200 dark:border-slate-700 text-center transition">
-                      <div className="text-[10px] font-bold text-slate-800 dark:text-slate-200 leading-tight uppercase">
-                        {lang === 'tr' ? extra.name.tr : extra.name.en}
-                      </div>
-                      <div className="text-xs font-black text-amber-600 dark:text-amber-400 mt-1">
-                        +{extra.price}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
               {/* Bottom Spacing */}
               <div className="pb-4" />
             </div>
