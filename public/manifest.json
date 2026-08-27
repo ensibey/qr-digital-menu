@@ -1,0 +1,16 @@
+{
+  "short_name": "DP's Menu",
+  "name": "DP's Specialty Coffee & Refreshers",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "./",
+  "background_color": "#070A11",
+  "theme_color": "#070A11",
+  "display": "standalone",
+  "orientation": "portrait"
+}

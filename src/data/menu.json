@@ -1,0 +1,202 @@
+{
+  "cafe": "INDULGE YOURSELF",
+  "subtitle": "Specialty Coffee & Refreshers",
+  "extras": [
+    { "name": { "tr": "MILK (SÜT)", "en": "MILK" }, "price": "35₺", "priceNum": 35 },
+    { "name": { "tr": "FLAVOUR (AROMA)", "en": "FLAVOUR" }, "price": "35₺", "priceNum": 35 },
+    { "name": { "tr": "SHOT (ESPRESSO SHOT)", "en": "SHOT" }, "price": "35₺", "priceNum": 35 }
+  ],
+  "categories": [
+    {
+      "id": "espresso",
+      "type": "hot",
+      "title": { "tr": "ESPRESSO", "en": "ESPRESSO BAR" },
+      "image": "./images/espresso.jpg",
+      "items": [
+        { "id": "espresso-single", "name": { "tr": "Espresso", "en": "Espresso" }, "description": { "tr": "%100 Arabica çekirdeklerinden yoğun aromalı shot.", "en": "Rich Arabica espresso shot with thick crema." }, "prices": { "S": "125₺", "M": "140₺" }, "pricesNum": { "S": 125, "M": 140 } },
+        { "id": "espresso-macchiato", "name": { "tr": "Espresso Macchiato", "en": "Espresso Macchiato" }, "description": { "tr": "Espresso üzeri hafif kadife süt köpüğü.", "en": "Espresso topped with a dollop of steamed milk foam." }, "prices": { "Tek": "140₺" }, "pricesNum": { "Tek": 140 } },
+        { "id": "flat-white", "name": { "tr": "Flat White", "en": "Flat White" }, "description": { "tr": "Çift shot ristretto ve mikro köpüklü buharlanmış süt.", "en": "Double ristretto with velvety micro-foam milk." }, "prices": { "Tek": "180₺" }, "pricesNum": { "Tek": 180 } },
+        { "id": "americano", "name": { "tr": "Americano", "en": "Americano" }, "description": { "tr": "Sıcak su ile inceltilmiş zengin espresso.", "en": "Rich espresso poured over hot water." }, "prices": { "S": "150₺", "M": "160₺", "L": "170₺" }, "pricesNum": { "S": 150, "M": 160, "L": 170 } },
+        { "id": "cappuccino", "name": { "tr": "Cappuccino", "en": "Cappuccino" }, "description": { "tr": "Dengeli espresso, sıcak süt ve yoğun köpük.", "en": "Equal parts espresso, warm milk, and dense foam." }, "prices": { "S": "175₺", "M": "185₺", "L": "195₺" }, "pricesNum": { "S": 175, "M": 185, "L": 195 } },
+        { "id": "caffe-latte", "name": { "tr": "Caffe Latte", "en": "Caffe Latte" }, "description": { "tr": "Yumuşak içimli bol sütlü taze espresso.", "en": "Smooth espresso with generous silky steamed milk." }, "prices": { "S": "175₺", "M": "185₺", "L": "195₺" }, "pricesNum": { "S": 175, "M": 185, "L": 195 } },
+        { "id": "caffe-mocha", "name": { "tr": "Caffe Mocha", "en": "Caffe Mocha" }, "description": { "tr": "Belçika çikolatası, espresso, sıcak süt ve krema.", "en": "Belgian chocolate, espresso, milk, whipped cream." }, "prices": { "S": "220₺", "M": "230₺", "L": "240₺" }, "pricesNum": { "S": 220, "M": 230, "L": 240 } },
+        { "id": "white-chocolate-mocha", "name": { "tr": "White Chocolate Mocha", "en": "White Chocolate Mocha" }, "description": { "tr": "Beyaz çikolata sosu, espresso ve kadife süt.", "en": "Sweet white chocolate, espresso, and creamy milk." }, "prices": { "S": "220₺", "M": "230₺", "L": "240₺" }, "pricesNum": { "S": 220, "M": 230, "L": 240 } }
+      ]
+    },
+    {
+      "id": "espresso-special",
+      "type": "hot",
+      "title": { "tr": "ESPRESSO SPECIAL", "en": "SPECIALTY LATTES" },
+      "image": "./images/espresso-special.jpg",
+      "items": [
+        { "id": "chai-tea-latte", "name": { "tr": "Chai Tea Latte", "en": "Chai Tea Latte" }, "description": { "tr": "Kakule, tarçın, zencefil baharatlı siyah çay ve sıcak süt.", "en": "Spiced chai tea with steamed frothy milk." }, "prices": { "Tek": "230₺" }, "pricesNum": { "Tek": 230 } },
+        { "id": "pumpkin-spice-latte", "name": { "tr": "Pumpkin Spice Latte", "en": "Pumpkin Spice Latte" }, "description": { "tr": "Balkabağı püresi notaları ve sonbahar baharatları.", "en": "Pumpkin puree notes with warm autumn spices." }, "prices": { "Tek": "230₺" }, "pricesNum": { "Tek": 230 } },
+        { "id": "italian-caramel-latte", "name": { "tr": "Italian Caramel Latte", "en": "Italian Caramel Latte" }, "description": { "tr": "İtalyan karameli ve aromatik espresso.", "en": "Italian toasted caramel with rich espresso." }, "prices": { "Tek": "230₺" }, "pricesNum": { "Tek": 230 } },
+        { "id": "cinnamon-latte", "name": { "tr": "Cinnamon Latte", "en": "Cinnamon Latte" }, "description": { "tr": "Seylan tarçını ve sıcak kadife latte.", "en": "Ceylon cinnamon infusion with smooth latte." }, "prices": { "Tek": "230₺" }, "pricesNum": { "Tek": 230 } },
+        { "id": "cortado", "name": { "tr": "Cortado", "en": "Cortado" }, "description": { "tr": "1:1 oranında espresso ve ılık süt.", "en": "Equal parts espresso and warm textured milk." }, "prices": { "Tek": "180₺" }, "pricesNum": { "Tek": 180 } },
+        { "id": "anatolian-spice-latte", "name": { "tr": "Anatolian Spice Latte", "en": "Anatolian Spice Latte" }, "description": { "tr": "Geleneksel karanfil ve kakule dokunuşlu özel latte.", "en": "Anatolian clove & cardamom spice blend." }, "prices": { "Tek": "240₺" }, "pricesNum": { "Tek": 240 } },
+        { "id": "marshmallow-latte", "name": { "tr": "Marshmallow Latte", "en": "Marshmallow Latte" }, "description": { "tr": "Fırınlanmış marshmallow aroması ve tatlı krema.", "en": "Toasted marshmallow with sweet latte froth." }, "prices": { "Tek": "240₺" }, "pricesNum": { "Tek": 240 } },
+        { "id": "winter-spices-latte", "name": { "tr": "Winter Spices Latte", "en": "Winter Spices Latte" }, "description": { "tr": "Zencefil, yenibahar ve tarçın harmanı.", "en": "Winter ginger, allspice, and cinnamon." }, "prices": { "Tek": "240₺" }, "pricesNum": { "Tek": 240 } },
+        { "id": "citrus-latte", "name": { "tr": "Citrus Latte", "en": "Citrus Latte" }, "description": { "tr": "Narenciye kabuğu yağı ve espresso süt uyumu.", "en": "Citrus zest infusion with smooth latte." }, "prices": { "Tek": "240₺" }, "pricesNum": { "Tek": 240 } },
+        { "id": "plum-velvet", "name": { "tr": "Plum Velvet", "en": "Plum Velvet" }, "description": { "tr": "Mürdüm eriği özü ve vanilya kreması.", "en": "Dark plum reduction and vanilla cream." }, "prices": { "Tek": "240₺" }, "pricesNum": { "Tek": 240 } },
+        { "id": "pistachio-latte", "name": { "tr": "Pistachio Latte", "en": "Pistachio Latte" }, "description": { "tr": "Hakiki Antep fıstığı kreması ve espresso.", "en": "Real Antep pistachio puree with espresso." }, "prices": { "Tek": "250₺" }, "pricesNum": { "Tek": 250 } },
+        { "id": "trigger-latte", "name": { "tr": "Trigger Latte", "en": "Trigger Latte" }, "description": { "tr": "🌶️ Özel chili biber özütü ve bitter çikolatalı espresso.", "en": "🌶️ Signature spicy chili kick with dark cocoa." }, "prices": { "Tek": "240₺" }, "pricesNum": { "Tek": 240 }, "spicy": true }
+      ]
+    },
+    {
+      "id": "filter-coffee",
+      "type": "hot",
+      "title": { "tr": "FILTER COFFEE", "en": "FILTER COFFEE" },
+      "subtitle": "Ethiopia, Guatemala, Colombia, Kenya AA",
+      "image": "./images/filter-coffee.jpg",
+      "items": [
+        { "id": "filter-coffee-cup", "name": { "tr": "Filter Coffee", "en": "Filter Coffee" }, "description": { "tr": "Taze demlenmiş tek kökenli filtre kahve.", "en": "Freshly batch brewed single origin coffee." }, "prices": { "S": "145₺", "M": "155₺", "L": "165₺" }, "pricesNum": { "S": 145, "M": 155, "L": 165 } },
+        { "id": "chemex", "name": { "tr": "Chemex", "en": "Chemex Pour-Over" }, "description": { "tr": "Chemex kalın filtresiyle berrak ve zengin gövde.", "en": "Clean, aromatic Chemex manual pour over." }, "prices": { "Tek": "300₺" }, "pricesNum": { "Tek": 300 } },
+        { "id": "v60", "name": { "tr": "V60", "en": "Hario V60" }, "description": { "tr": "Hario V60 el demleme yöntemi ile meyvemsi nüanslar.", "en": "V60 pour over showcasing lively origin acidity." }, "prices": { "Tek": "180₺" }, "pricesNum": { "Tek": 180 } }
+      ]
+    },
+    {
+      "id": "tea",
+      "type": "hot",
+      "title": { "tr": "TEA (ÇAYLAR)", "en": "TEA & HERBAL" },
+      "image": "./images/tea.jpg",
+      "items": [
+        { "id": "turkish-tea", "name": { "tr": "Türk Çayı (Turkish Tea)", "en": "Turkish Black Tea" }, "description": { "tr": "Rize'nin taze demlenmiş geleneksel siyah çayı.", "en": "Freshly brewed classic Turkish black tea." }, "prices": { "S": "75₺", "M": "85₺" }, "pricesNum": { "S": 75, "M": 85 } },
+        { "id": "mint-lemon", "name": { "tr": "Mint & Lemon", "en": "Mint & Lemon Tea" }, "description": { "tr": "Taze nane yaprakları ve limon dilimleri.", "en": "Fresh mint leaves and organic lemon slices." }, "prices": { "Tek": "140₺" }, "pricesNum": { "Tek": 140 } },
+        { "id": "green-tea", "name": { "tr": "Green Tea (Yeşil Çay)", "en": "Green Tea" }, "description": { "tr": "Antioksidan zengini saf yeşil çay yaprakları.", "en": "Pure whole leaf organic green tea." }, "prices": { "Tek": "140₺" }, "pricesNum": { "Tek": 140 } },
+        { "id": "winter-tea", "name": { "tr": "Winter Tea (Kış Çayı)", "en": "Winter Herbal Tea" }, "description": { "tr": "Ihlamur, adaçayı, zencefil ve tarçın harmanı.", "en": "Linden, sage, ginger, and cinnamon blend." }, "prices": { "Tek": "140₺" }, "pricesNum": { "Tek": 140 } },
+        { "id": "hawai-cocktail", "name": { "tr": "Hawai Cocktail Tea", "en": "Hawai Cocktail Tea" }, "description": { "tr": "Tropikal ananas, papaya, mango ve hibiskus.", "en": "Pineapple, papaya, mango, and hibiscus." }, "prices": { "Tek": "140₺" }, "pricesNum": { "Tek": 140 } },
+        { "id": "extra-fruity", "name": { "tr": "Extra Fruity Tea", "en": "Extra Fruity Tea" }, "description": { "tr": "Orman meyveleri, böğürtlen ve kuşburnu.", "en": "Wild forest berries and rosehip." }, "prices": { "Tek": "140₺" }, "pricesNum": { "Tek": 140 } },
+        { "id": "rhubarb-cocktail", "name": { "tr": "Rhubarb Cocktail Tea", "en": "Rhubarb Cocktail Tea" }, "description": { "tr": "Işkın çiçeği ve mayhoş yaz meyveleri.", "en": "Rhubarb infusion with tart summer fruits." }, "prices": { "Tek": "140₺" }, "pricesNum": { "Tek": 140 } }
+      ]
+    },
+    {
+      "id": "hot-chocolate",
+      "type": "hot",
+      "title": { "tr": "HOT CHOCOLATE", "en": "HOT CHOCOLATE" },
+      "image": "./images/hot-chocolate.jpg",
+      "items": [
+        { "id": "hot-chili-choc", "name": { "tr": "Hot Chili Chocolate", "en": "Hot Chili Chocolate" }, "description": { "tr": "🌶️ Yoğun eritilmiş bitter çikolata ve chili acısı.", "en": "🌶️ Dark molten chocolate infused with artisan chili." }, "prices": { "Tek": "210₺" }, "pricesNum": { "Tek": 210 }, "spicy": true },
+        { "id": "hot-chocolate-classic", "name": { "tr": "Hot Chocolate (Sıcak Çikolata)", "en": "Hot Chocolate" }, "description": { "tr": "Kıvamlı Belçika sütlü çikolatası.", "en": "Rich Belgian milk chocolate and warm milk." }, "prices": { "M": "180₺", "L": "190₺" }, "pricesNum": { "M": 180, "L": 190 } },
+        { "id": "white-chocolate", "name": { "tr": "White Chocolate", "en": "White Chocolate" }, "description": { "tr": "Eritilmiş beyaz kakao yağı çikolatası.", "en": "Creamy molten white chocolate." }, "prices": { "M": "180₺", "L": "190₺" }, "pricesNum": { "M": 180, "L": 190 } },
+        { "id": "banana-choc", "name": { "tr": "Banana Chocolate", "en": "Banana Chocolate" }, "description": { "tr": "Muz aroması ve çikolata dolgusu.", "en": "Sweet banana puree folded in chocolate." }, "prices": { "M": "210₺", "L": "220₺" }, "pricesNum": { "M": 210, "L": 220 } },
+        { "id": "caramel-choc", "name": { "tr": "Caramel Chocolate", "en": "Caramel Chocolate" }, "description": { "tr": "Koyu karamel sosu ve çikolata.", "en": "Rich caramel swirl with hot cocoa." }, "prices": { "M": "210₺", "L": "220₺" }, "pricesNum": { "M": 210, "L": 220 } },
+        { "id": "strawberry-choc", "name": { "tr": "Strawberry Chocolate", "en": "Strawberry Chocolate" }, "description": { "tr": "Çilek notalarıyla tatlandırılmış sıcak çikolata.", "en": "Strawberry essence with warm chocolate." }, "prices": { "M": "210₺", "L": "220₺" }, "pricesNum": { "M": 210, "L": 220 } }
+      ]
+    },
+    {
+      "id": "turkish-coffee",
+      "type": "hot",
+      "title": { "tr": "TURKISH COFFEE", "en": "TURKISH COFFEE" },
+      "image": "./images/turkish-coffee.jpg",
+      "items": [
+        { "id": "turkish-coffee-classic", "name": { "tr": "Türk Kahvesi", "en": "Classic Turkish Coffee" }, "description": { "tr": "Közde ağır pişmiş bol köpüklü geleneksel kahve.", "en": "Slow brewed traditional frothy Turkish coffee." }, "prices": { "S": "120₺", "M": "130₺" }, "pricesNum": { "S": 120, "M": 130 } },
+        { "id": "mastic-turkish-coffee", "name": { "tr": "Mastic Gum (Damla Sakızlı)", "en": "Mastic Gum Turkish Coffee" }, "description": { "tr": "Ege damla sakızı aromalı enfes Türk kahvesi.", "en": "Aegean mastic gum resin infusion." }, "prices": { "S": "130₺", "M": "140₺" }, "pricesNum": { "S": 130, "M": 140 } },
+        { "id": "strawberry-turkish-coffee", "name": { "tr": "Wild Strawberry (Dağ Çilekli)", "en": "Wild Strawberry Coffee" }, "description": { "tr": "Dağ çileği kokusu ve kahve çekirdeği.", "en": "Wild berry fragrance with coffee." }, "prices": { "S": "130₺", "M": "140₺" }, "pricesNum": { "S": 130, "M": 140 } },
+        { "id": "ottoman-turkish-coffee", "name": { "tr": "Ottoman Flavoured (Osmanlı Dibek)", "en": "Ottoman Heritage Coffee" }, "description": { "tr": "Kakule, menengiç ve 7 özel baharat harmanı.", "en": "Cardamom, wild terebinth, and herbs." }, "prices": { "S": "130₺", "M": "140₺" }, "pricesNum": { "S": 130, "M": 140 } }
+      ]
+    },
+    {
+      "id": "salep",
+      "type": "hot",
+      "title": { "tr": "SALEP", "en": "WINTER SAHLEP" },
+      "image": "./images/salep.jpg",
+      "items": [
+        { "id": "salep-classic", "name": { "tr": "Salep (Doğal Sahlep)", "en": "Traditional Sahlep" }, "description": { "tr": "Hakiki orkide yumrusu ve tam yağlı süt ile tarçınlı.", "en": "Wild mountain orchid root with cinnamon." }, "prices": { "S": "190₺", "M": "200₺" }, "pricesNum": { "S": 190, "M": 200 } },
+        { "id": "salep-mastic", "name": { "tr": "Mastic Gum Sahlep", "en": "Mastic Gum Sahlep" }, "description": { "tr": "Damla sakızı ferahlığıyla pişirilmiş sahlep.", "en": "Aegean mastic gum scented sahlep." }, "prices": { "S": "190₺", "M": "200₺" }, "pricesNum": { "S": 190, "M": 200 } }
+      ]
+    },
+    {
+      "id": "ice-coffees",
+      "type": "cold",
+      "title": { "tr": "ICE COFFEES", "en": "ICE COFFEES" },
+      "image": "./images/ice-coffees.jpg",
+      "items": [
+        { "id": "ice-frappe", "name": { "tr": "Ice Coffee Frappe", "en": "Ice Coffee Frappe" }, "description": { "tr": "Buz ile çalkalanmış köpüklü soğuk kahve.", "en": "Whipped iced coffee with light cold milk." }, "prices": { "Tek": "220₺" }, "pricesNum": { "Tek": 220 } },
+        { "id": "ice-white-mocha", "name": { "tr": "Ice Chocolate White Mocha", "en": "Ice Chocolate White Mocha" }, "description": { "tr": "Beyaz çikolata sosu, espresso, süt ve buz.", "en": "White chocolate sauce, espresso, cold milk." }, "prices": { "Tek": "240₺" }, "pricesNum": { "Tek": 240 } },
+        { "id": "ice-mocha", "name": { "tr": "Ice Coffee Mocha", "en": "Ice Coffee Mocha" }, "description": { "tr": "Kakao çikolatası, espresso, soğuk süt ve krema.", "en": "Chocolate fudge, espresso, milk, cream." }, "prices": { "Tek": "240₺" }, "pricesNum": { "Tek": 240 } },
+        { "id": "ice-chai-latte", "name": { "tr": "Ice Chai Tea Latte", "en": "Ice Chai Tea Latte" }, "description": { "tr": "Baharatlı chai çayı, soğuk süt ve buz.", "en": "Chilled spiced chai tea with milk." }, "prices": { "Tek": "230₺" }, "pricesNum": { "Tek": 230 } },
+        { "id": "ice-chocolate", "name": { "tr": "Ice Chocolate", "en": "Ice Chocolate" }, "description": { "tr": "Buzlu soğuk çikolata ve taze süt.", "en": "Chilled chocolate ganache and cold milk." }, "prices": { "Tek": "210₺" }, "pricesNum": { "Tek": 210 } },
+        { "id": "ice-americano", "name": { "tr": "Ice Americano", "en": "Ice Americano" }, "description": { "tr": "Buzlu su üzerine dökülen çift shot espresso.", "en": "Double espresso over iced mineral water." }, "prices": { "Tek": "180₺" }, "pricesNum": { "Tek": 180 } },
+        { "id": "ice-latte", "name": { "tr": "Ice Latte", "en": "Ice Latte" }, "description": { "tr": "Buzlu soğuk süt üzerine taze espresso katmanı.", "en": "Chilled milk topped with bold espresso." }, "prices": { "Tek": "210₺" }, "pricesNum": { "Tek": 210 } },
+        { "id": "ice-filter", "name": { "tr": "Ice Filter Coffee", "en": "Ice Filter Coffee" }, "description": { "tr": "Buz üzerinde soğutulmuş filtre kahve.", "en": "Single origin filter flash-chilled over ice." }, "prices": { "Tek": "185₺" }, "pricesNum": { "Tek": 185 } },
+        { "id": "cold-brew", "name": { "tr": "Cold Brew", "en": "Cold Brew (18h)" }, "description": { "tr": "18 saat soğuk su ile demlenmiş ipeksi lezzet.", "en": "18-hour slow cold steeped specialty roast." }, "prices": { "Tek": "190₺" }, "pricesNum": { "Tek": 190 } }
+      ]
+    },
+    {
+      "id": "refreshers",
+      "type": "cold",
+      "title": { "tr": "DP'S REFRESHERS", "en": "DP'S REFRESHERS" },
+      "image": "./images/refreshers.jpg",
+      "items": [
+        { "id": "cooldrop-lime", "name": { "tr": "Cooldrop Lime", "en": "Cooldrop Lime" }, "description": { "tr": "Misket limonu, nane ve buzlu maden suyu.", "en": "Cold pressed lime, fresh mint, sparkling water." }, "prices": { "Tek": "240₺" }, "pricesNum": { "Tek": 240 } },
+        { "id": "cooldrop-redberries", "name": { "tr": "Cooldrop Redberries", "en": "Cooldrop Redberries" }, "description": { "tr": "Kırmızı orman meyveleri ve buz gibi ferahlık.", "en": "Wild red berries and crushed ice." }, "prices": { "Tek": "240₺" }, "pricesNum": { "Tek": 240 } },
+        { "id": "blueberry-hibiscus", "name": { "tr": "Blueberry Hibiscus", "en": "Blueberry Hibiscus" }, "description": { "tr": "Yaban mersini ve ekşi hibiskus çiçeği özü.", "en": "Blueberry juice and tart hibiscus." }, "prices": { "Tek": "240₺" }, "pricesNum": { "Tek": 240 } },
+        { "id": "dragon-freeze", "name": { "tr": "Dragon Freeze", "en": "Dragon Freeze" }, "description": { "tr": "Ejder meyvesi (pitaya) ve mango aroması.", "en": "Dragonfruit and mango with ice." }, "prices": { "Tek": "240₺" }, "pricesNum": { "Tek": 240 } },
+        { "id": "green-feel", "name": { "tr": "Green Feel", "en": "Green Feel" }, "description": { "tr": "Yeşil elma, salatalık, kivi ve limon otu.", "en": "Green apple, cucumber, kiwi, and lemongrass." }, "prices": { "Tek": "240₺" }, "pricesNum": { "Tek": 240 } },
+        { "id": "black-lime", "name": { "tr": "Black Lime", "en": "Black Lime" }, "description": { "tr": "Karamelize narenciye ve buzlu soda.", "en": "Smoky dried lime essence." }, "prices": { "Tek": "240₺" }, "pricesNum": { "Tek": 240 } },
+        { "id": "night-purple", "name": { "tr": "Night Purple", "en": "Night Purple" }, "description": { "tr": "Böğürtlen, mürver ve kelebek bezelye çiçeği.", "en": "Blackberry and butterfly pea violet tea." }, "prices": { "Tek": "240₺" }, "pricesNum": { "Tek": 240 } }
+      ]
+    },
+    {
+      "id": "frozen",
+      "type": "cold",
+      "title": { "tr": "FROZEN", "en": "FROZEN SLUSHIES" },
+      "image": "./images/frozen.jpg",
+      "items": [
+        { "id": "frozen-banana", "name": { "tr": "Muzlu Frozen (Banana)", "en": "Banana Frozen" }, "description": { "tr": "Gerçek muz püresi ve kırılmış buz.", "en": "Real banana blended with ice." }, "prices": { "Tek": "210₺" }, "pricesNum": { "Tek": 210 } },
+        { "id": "frozen-mango", "name": { "tr": "Mangolu Frozen (Mango)", "en": "Mango Frozen" }, "description": { "tr": "Olgunlaşmış tropikal mango püresi.", "en": "Sun-ripened tropical mango slushie." }, "prices": { "Tek": "210₺" }, "pricesNum": { "Tek": 210 } },
+        { "id": "frozen-apple", "name": { "tr": "Yeşil Elmalı Frozen (Green Apple)", "en": "Green Apple Frozen" }, "description": { "tr": "Ekşi Granny Smith yeşil elma ve buz.", "en": "Sour green apple crushed with ice." }, "prices": { "Tek": "210₺" }, "pricesNum": { "Tek": 210 } },
+        { "id": "frozen-satsuma", "name": { "tr": "Satsuma Mandalina Frozen", "en": "Satsuma Mandarin Frozen" }, "description": { "tr": "Ege satsuma mandalinası lezzeti.", "en": "Aegean satsuma mandarin citrus." }, "prices": { "Tek": "210₺" }, "pricesNum": { "Tek": 210 } },
+        { "id": "frozen-passion", "name": { "tr": "Passion Fruit Frozen", "en": "Passion Fruit Frozen" }, "description": { "tr": "Mayhoş ve aromatik çarkıfelek meyvesi.", "en": "Sweet-tart passionfruit slush." }, "prices": { "Tek": "210₺" }, "pricesNum": { "Tek": 210 } }
+      ]
+    },
+    {
+      "id": "milkshake",
+      "type": "cold",
+      "title": { "tr": "MILKSHAKE", "en": "MILKSHAKES" },
+      "image": "./images/milkshake.jpg",
+      "items": [
+        { "id": "milkshake-vanilla", "name": { "tr": "Vanilyalı Milkshake", "en": "Vanilla Milkshake" }, "description": { "tr": "Vanilyalı dondurma ve soğuk süt.", "en": "Vanilla bean ice cream and milk." }, "prices": { "Tek": "235₺" }, "pricesNum": { "Tek": 235 } },
+        { "id": "milkshake-choc", "name": { "tr": "Çikolatalı Milkshake", "en": "Chocolate Milkshake" }, "description": { "tr": "Koyu çikolatalı dondurma ve krema.", "en": "Rich chocolate ice cream and fudge." }, "prices": { "Tek": "235₺" }, "pricesNum": { "Tek": 235 } },
+        { "id": "milkshake-straw", "name": { "tr": "Çilekli Milkshake", "en": "Strawberry Milkshake" }, "description": { "tr": "Taze çilek püresi ve dondurma.", "en": "Real strawberry puree and ice cream." }, "prices": { "Tek": "235₺" }, "pricesNum": { "Tek": 235 } },
+        { "id": "milkshake-banana", "name": { "tr": "Muzlu Milkshake", "en": "Banana Milkshake" }, "description": { "tr": "Muz meyvesi ve dondurma kıvamı.", "en": "Real banana and dairy ice cream." }, "prices": { "Tek": "235₺" }, "pricesNum": { "Tek": 235 } },
+        { "id": "milkshake-caramel", "name": { "tr": "Karamelli Milkshake", "en": "Caramel Milkshake" }, "description": { "tr": "Karamel sosu ve kremsi dondurma.", "en": "Salted caramel drizzle with cream." }, "prices": { "Tek": "235₺" }, "pricesNum": { "Tek": 235 } }
+      ]
+    },
+    {
+      "id": "special-cocktail",
+      "type": "cold",
+      "title": { "tr": "SPECIAL COCKTAIL", "en": "SPECIAL COCKTAILS" },
+      "image": "./images/special-cocktail.jpg",
+      "items": [
+        { "id": "cocktail-kitkat", "name": { "tr": "KitKat Special Cocktail", "en": "KitKat Cocktail" }, "description": { "tr": "KitKat gofret parçacıkları, fındık kreması ve buzlu süt.", "en": "Crispy KitKat wafer bars with hazelnut." }, "prices": { "Tek": "240₺" }, "pricesNum": { "Tek": 240 } },
+        { "id": "cocktail-why-nut", "name": { "tr": "Why Nut Cocktail", "en": "Why Nut Cocktail" }, "description": { "tr": "Fındık, fıstık ezmesi ve karamel sosu.", "en": "Toasted hazelnuts and peanut butter." }, "prices": { "Tek": "240₺" }, "pricesNum": { "Tek": 240 } },
+        { "id": "cocktail-fly-nut", "name": { "tr": "Fly Nut Cocktail", "en": "Fly Nut Cocktail" }, "description": { "tr": "Ceviz, badem ezmesi ve vanilya kreması.", "en": "Walnuts, almond paste, vanilla froth." }, "prices": { "Tek": "240₺" }, "pricesNum": { "Tek": 240 } },
+        { "id": "cocktail-oreo", "name": { "tr": "Oreo Bomb Cocktail", "en": "Oreo Bomb Cocktail" }, "description": { "tr": "Bütün Oreo bisküvileri ve beyaz çikolata kreması.", "en": "Double Oreo cookies with white chocolate." }, "prices": { "Tek": "240₺" }, "pricesNum": { "Tek": 240 } },
+        { "id": "cocktail-coconut", "name": { "tr": "Coconut Cream Cocktail", "en": "Coconut Cream Cocktail" }, "description": { "tr": "Hindistan cevizi sütü ve beyaz çikolata.", "en": "Coconut milk and white chocolate." }, "prices": { "Tek": "240₺" }, "pricesNum": { "Tek": 240 } }
+      ]
+    },
+    {
+      "id": "lemonade",
+      "type": "cold",
+      "title": { "tr": "LEMONADE", "en": "LEMONADE" },
+      "image": "./images/lemonade.jpg",
+      "items": [
+        { "id": "classical-lemonade", "name": { "tr": "Classical Lemonade (Klasik Limonata)", "en": "Classical Homemade Lemonade" }, "description": { "tr": "Taze sıkılmış limon, nane ve pancar şekeri dengesi.", "en": "Hand-squeezed fresh lemons and garden mint." }, "prices": { "Tek": "180₺" }, "pricesNum": { "Tek": 180 } }
+      ]
+    },
+    {
+      "id": "extras",
+      "type": "cold",
+      "title": { "tr": "EXTRAS (+35₺)", "en": "EXTRAS (+35₺)" },
+      "subtitle": "MILK • FLAVOUR • SHOT",
+      "image": "./images/extras.jpg",
+      "items": [
+        { "id": "extra-milk", "name": { "tr": "MILK (Süt İlavesi)", "en": "MILK (Extra Milk)" }, "description": { "tr": "İçeceğinize ekstra süt ilavesi.", "en": "Add extra milk to your drink." }, "prices": { "Tek": "35₺" }, "pricesNum": { "Tek": 35 } },
+        { "id": "extra-flavour", "name": { "tr": "FLAVOUR (Aroma / Şurup)", "en": "FLAVOUR (Extra Syrup)" }, "description": { "tr": "İçeceğinize ekstra aroma veya şurup.", "en": "Add extra syrup flavour." }, "prices": { "Tek": "35₺" }, "pricesNum": { "Tek": 35 } },
+        { "id": "extra-shot", "name": { "tr": "SHOT (Espresso Shot)", "en": "SHOT (Espresso Shot)" }, "description": { "tr": "İçeceğinize ekstra +1 espresso shot.", "en": "Add extra +1 espresso shot." }, "prices": { "Tek": "35₺" }, "pricesNum": { "Tek": 35 } }
+      ]
+    }
+  ]
+}
